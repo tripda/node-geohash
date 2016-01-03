@@ -24,12 +24,10 @@
   "dependencies": {},
   "devDependencies": {
     "assert": ">=1.0",
-    "nodeunit": ">=0.8",
-    "browserify": ">=5.0"
+    "nodeunit": ">=0.8"
   },
   "scripts": {
-    "test": "nodeunit tests/test.js",
-    "install": "browserify . -o ngeohash.js -s ngeohash"
+    "test": "nodeunit tests/test.js"
   },
   "main": "./main",
   "license": "MIT",
